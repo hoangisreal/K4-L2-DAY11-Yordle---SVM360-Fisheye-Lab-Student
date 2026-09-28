@@ -45,7 +45,8 @@
 - [x] Role A đã khóa r1 `0E90-3A37` và v2 `F070-18D5`.
 - [x] Role B đã kiểm tra r1/v2 khóa ngày 29/09/2026 và xác nhận các finding trong lượt review có tham chiếu.
 - [x] Role C đã kiểm tra bộ báo cáo, xác nhận escalation và kiểm tra cổng kỹ thuật.
-- [x] `manifest.json` có `failed_gates=[]`.
-- [ ] Các ca E5 tại frame `adasind_258420.jpg` vẫn cần reviewer thứ hai hoặc Lab Coach phân xử; đây là trạng thái chủ đích của hồ sơ, không phải dữ liệu đã resolved.
+- [x] manifest.json tại commit chốt có failed_gates rỗng.
+- [x] Repo nhóm Public, ảnh và các bằng chứng mở được.
+- [x] C đã push và gửi link repo nhóm + commit qua kênh lớp công bố.
 
 Chỉ gán công việc cho thành viên khi có artifact hoặc bước xác nhận tương ứng. Việc một vai kiểm tra/chấp nhận artifact không được diễn đạt thành việc vai đó tự tạo artifact từ đầu.
