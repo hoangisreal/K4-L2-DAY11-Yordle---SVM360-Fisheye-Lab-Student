@@ -11,6 +11,8 @@
 Hai ngưỡng 0.35 và 0.6 là **bin chẩn đoán** chọn từ phân bố pre-label của lab này, để so sánh trong buổi học. Đây
 **không** phải ngưỡng chuẩn ngành cho hệ thống 360°/SVM thật.
 
+`edge_zone` là checkbox trong nhãn object của CVAT. Báo cáo zone của lab tính lại `center/mid/edge` từ tâm box và vòng kính theo công thức trên, không đọc checkbox này. Vì vậy tên slice `B4-edge` và trạng thái `edge_zone` không quyết định zone trong báo cáo; `edge_zone` cũng không đồng nghĩa với `truncated` hay `occluded`.
+
 ## 6 class là tập con
 
 ADASIND gốc và slide Ngày 11 nói tới nhiều class hơn (kể cả vật tĩnh như cone/pole/obstacle). Lab này chỉ dùng

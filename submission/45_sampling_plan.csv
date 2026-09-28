@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,20,"Thiếu cảnh nhìn rõ phía trước sẽ làm so sánh với hard cases lệch về vật khó và che khuất.","Chọn 20 frame nền front ở các thời điểm/cảnh tách biệt; ba frame ADASIND không đại diện camera front."
+front,hard,30,"Người/xe hai bánh bị che, vật gần H=40 và xe ba bánh có thể gây bất đồng box/class; các cue từ P4 cần xác minh trên dữ liệu front thật.","Dành 30 frame để tăng cơ hội phát hiện lỗi ít gặp; đây là mẫu tìm lỗi, không dùng để suy tỷ lệ lỗi."
+rear,normal,20,"Nếu chỉ lấy cảnh khó, thiếu nền rear để tách lỗi do camera khỏi lỗi do tình huống lùi.","Chọn 20 frame lùi nhìn rõ, ít vật và rải theo thời điểm/nền; không suy cảnh rear từ ADASIND."
+rear,hard,30,"Thân xe hoặc vật khác che, vật cắt gần vành kính có thể làm sai scope, ignore và visible extent.","Dành 30 frame rear để soát riêng ego_body, lens_border, occluded và truncated ở tình huống lùi."
+left,normal,20,"Thiếu đối chứng bình thường riêng của left có thể khiến bất đồng ở seam bị quy hết cho méo rìa.","Chọn 20 frame left phân tán theo chuyến/thời gian; không đếm frame liền nhau của một sự kiện như nhiều ca độc lập."
+left,hard,30,"Vật ở seam trái hoặc người chồng lấn có thể sinh box khác nhau giữa camera/cá thể; chưa có policy seam sẽ dễ gọi nhầm duplicate.","Dành 30 frame left để kiểm hình học và policy liên camera; cụm người ở ADASIND 310008 chỉ là cue cần kiểm trên ảnh left thật."
+right,normal,20,"Thiếu nền riêng của right có thể làm đánh giá hard case lệch theo một đoạn đường hoặc một thời điểm.","Chọn 20 frame right nhìn rõ, rải theo thời điểm/cảnh; không mượn ADASIND làm mẫu đại diện."
+right,hard,30,"Vật méo, cắt hoặc bị che ở seam phải có thể làm sai box và thuộc tính truncated/occluded.","Dành 30 frame right để tìm bất đồng dưới calibration thật; cue fisheye từ P4 chỉ giúp đặt giả thuyết."

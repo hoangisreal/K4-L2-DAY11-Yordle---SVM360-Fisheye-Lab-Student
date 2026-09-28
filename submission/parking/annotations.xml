@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>53</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-28 09:36:26.094100+00:00</created>
+      <updated>2026-09-28 18:18:16.841621+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>53</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>http://localhost:8080/api/jobs/53/dataset/export/api/jobs/53</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>hoangisreal</username>
+        <email>dinedeadvn@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>parking_line</name>
+          <color>#ffcc00</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>free_space</name>
+          <color>#35c98b</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-09-28 18:20:04.477587+00:00</dumped>
+  </meta>
+  <image id="0" name="parking-lot-core.jpg" width="960" height="720">
+    <polyline label="parking_line" source="file" occluded="0" points="24.81,720.00;28.68,681.61" z_order="0">
+    </polyline>
+    <polyline label="parking_line" source="file" occluded="0" points="531.29,720.00;407.77,651.76" z_order="0">
+    </polyline>
+    <polyline label="parking_line" source="file" occluded="0" points="960.00,684.55;697.12,622.44" z_order="0">
+    </polyline>
+    <polygon label="free_space" source="file" occluded="0" points="0.00,577.00;170.00,568.00;250.00,564.00;420.00,555.00;580.00,546.00;710.00,539.00;830.00,531.00;960.00,524.00;960.00,590.00;921.00,597.00;705.00,623.00;410.00,651.00;40.00,679.00;0.00,677.00" z_order="0">
+    </polygon>
+  </image>
+</annotations>

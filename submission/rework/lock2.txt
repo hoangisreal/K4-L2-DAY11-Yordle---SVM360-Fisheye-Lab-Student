@@ -1,0 +1,19 @@
+round: rework
+slice: B4-edge
+sha256: f07018d503fe4e0275e73f9fb6a3e569c0574cbc9817c66dcdb901a9a7c5dc78
+code: F070-18D5
+locked_at: 2026-09-29T01:50:51+07:00
+shapes: box=23, polygon=13
+prefill_kept: 23
+prefill_edited: 0
+new: 0
+history:
+  round: rework
+  slice: B4-edge
+  sha256: 745adde8bd85b9e984c3473b96099a07c5d39cd0126b2335eca336f398ead276
+  code: 745A-DDE8
+  locked_at: 2026-09-29T01:48:00+07:00
+  shapes: box=23, polygon=13
+  prefill_kept: 23
+  prefill_edited: 0
+  new: 0

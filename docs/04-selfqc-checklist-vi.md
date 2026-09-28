@@ -16,7 +16,7 @@ bằng `- [ ]` trong `selfqc.md` mà lệnh sinh ra.
    này vào nhau.
 7. **Thiếu/trùng:** không hai box cho một vật; không bỏ sót vật nhỏ ở rìa mà vẫn ≥ `H`.
 8. **`ignore_region`:** cụm không tách được → `crowd_or_group`; vật không đọc được → `unreadable`; vùng riêng tư →
-   `privacy_or_policy`; mỗi polygon có đúng một `reason`; không box nào nằm trong ignore region.
+   `privacy_or_policy`; mỗi polygon có đúng một `reason`; không box nào có ≥50% diện tích nằm trong một polygon ignore (R09).
 9. **Tên task và định dạng:** tên task có `raw_fisheye`; export đúng **CVAT for images 1.1**.
 
 Bỏ sót một mục sau khi khoá: ghi vào `submission/40_decision_log.csv`, không mở khoá để sửa âm thầm.

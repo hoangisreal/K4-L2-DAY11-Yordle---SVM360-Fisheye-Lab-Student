@@ -1,5 +1,7 @@
 # `submission/` — thư mục bài nộp của bạn
 
+> **Hồ sơ nhóm Hoàng–Tiến–Đại:** đây là một bài nộp chung trên slice B4-edge. Xem [hướng dẫn nhóm](../HUONG_DAN_HOANG.md) và [bảng vai](../TEAMMATES.md) để biết ai phụ trách từng bước; các câu nói về bài cá nhân trong template không áp dụng cho hồ sơ này.
+
 Đây là nơi lưu bằng chứng cho toàn bộ Day 11. Bạn điền các file mẫu có `TODO`, thêm ảnh chụp và để các lệnh `python3 lab11.py ...` tạo các file kỹ thuật cần thiết. **Giữ nguyên tên thư mục và tên file** để `python3 lab11.py check` nhận ra bài nộp.
 
 ## Cách dùng an toàn
@@ -7,7 +9,7 @@
 1. Làm theo [README chính](../README.md) và [GUIDE](../GUIDE.md) theo thứ tự P0–P6.
 2. Điền nội dung của bạn thay cho `TODO`; đừng xóa tiêu đề, cột CSV hoặc file mẫu.
 3. Export từ CVAT rồi dùng lệnh hướng dẫn để lưu/khóa file. Không chép XML reference trong `refs/` vào đây.
-4. Trước khi push repo cá nhân **Public**, chạy `python3 lab11.py check`, đọc từng lỗi và sửa bằng chứng thật.
+4. Trước khi push repo nhóm **Public**, chạy `python3 lab11.py check`, đọc từng lỗi và sửa bằng chứng thật.
 
 ## Bạn sẽ thấy gì trong đây?
 

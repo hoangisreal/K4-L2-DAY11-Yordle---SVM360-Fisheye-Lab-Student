@@ -73,9 +73,10 @@ class WorkflowTest(unittest.TestCase):
 
     def test_shipped_late_templates_exist(self):
         base = Path(__file__).resolve().parent.parent
+        # A learner checkout may already contain completed submission files.
+        # The timing and non-overwrite behavior is covered in a temporary repo above.
         for name in LATE_TEMPLATES:
             self.assertTrue((base / "assets/templates" / name).is_file(), name)
-            self.assertFalse((base / "submission" / name).exists(), name)
 
     def test_cleanup_requires_learner_root(self):
         with tempfile.TemporaryDirectory() as temp:

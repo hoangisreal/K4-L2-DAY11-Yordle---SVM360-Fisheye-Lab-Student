@@ -1,0 +1,24 @@
+{
+  "current_slice": "B4-edge",
+  "support_prefill": false,
+  "support_slice": "",
+  "slice": "B4-edge",
+  "prefill_box_ids": [
+    "adasind_236370.jpg:1",
+    "adasind_236370.jpg:2",
+    "adasind_236370.jpg:3",
+    "adasind_236370.jpg:4"
+  ],
+  "members": [
+    "hoang",
+    "pham",
+    "tien"
+  ],
+  "assignments": {
+    "hoang": "B4-edge",
+    "pham": "B2-center",
+    "tien": "B4-dense"
+  },
+  "self": "hoang",
+  "degrade": []
+}

@@ -1,7 +1,6 @@
 # 01 — Thao tác CVAT cho Day 11
 
-Tên nút và phím tắt theo CVAT v2.74.1 — bản bạn đã cài ở Day 2. Đây là lần thứ hai bạn dùng lại đúng stack đó,
-**không cài CVAT mới**.
+Tên nút và phím tắt trong hướng dẫn được soạn theo CVAT v2.74.1 của Day 2. Máy đang dùng cho hồ sơ nhóm này báo CVAT 2.75.1 trong `submission/00_setup/doctor.txt`; các lệnh bắt buộc đã chạy được. Cảnh báo `! CVAT khác 2.74.x` nhắc kiểm lại tên nút và API quality nếu dùng tính năng tùy chọn, không phải lỗi `✗`. Dùng stack CVAT hiện có, **không cài CVAT mới** chỉ để khớp số phiên bản.
 
 ## Chạy lệnh trên mọi máy có Python
 
@@ -20,7 +19,7 @@ Không cần cài `make`. Làm theo [GUIDE.md](../GUIDE.md#bắt-đầu-nếu-b�
 1. Mở Docker Desktop, chờ Engine chạy xong.
 2. Trong thư mục CVAT của bạn (ví dụ `cvat-day2`): `docker compose start` (báo không có container: `docker compose
    up -d`).
-3. Quay lại thư mục repo lab, chạy `python3 lab11.py doctor` — dòng CVAT phải in `✓ CVAT 2.74.x tại http://localhost:8080`.
+3. Quay lại thư mục repo lab, chạy `python3 lab11.py doctor` — dòng CVAT phải có `✓ CVAT` và số phiên bản đang chạy. Hồ sơ này hiện là `✓ CVAT 2.75.1`; dòng `!` về khác 2.74.x là cảnh báo phiên bản, còn dòng `✗ CVAT chưa kết nối được` mới cần sửa trước khi làm tiếp.
 4. Đăng nhập bằng tài khoản CVAT đã tạo từ Day 2.
 
 Xong buổi: `docker compose stop` trong thư mục CVAT. **Không bao giờ** `docker compose down -v` — cờ `-v` xoá cả
@@ -87,7 +86,7 @@ Riêng **P2**, export một bản nháp trước: `python3 lab11.py draft <đư�
 | `CVAT chưa chạy ở http://localhost:8080` | Mở Docker Desktop, `docker compose start` trong thư mục CVAT, chạy `python3 lab11.py doctor` lại |
 | `python3: command not found` hoặc `py` không chạy | Làm theo [GUIDE](../GUIDE.md#bắt-đầu-nếu-bạn-chưa-từng-dùng-terminal) và báo Lab Coach để cài Python 3.9 trở lên. |
 | `đã khoá với file khác` | Ghi lý do vào `40_decision_log.csv`, rồi chạy lại `python3 lab11.py lock <vòng> <zip-mới> --relock` |
-| `file đã đổi sau khi khoá` | Chạy lại `python3 lab11.py lock <vòng> <zip-vừa-export>` với đúng file vừa export |
+| `file đã đổi sau khi khoá` | Nếu XML khóa bị sửa ngoài ý muốn, khôi phục từ ZIP export ban đầu khớp SHA trong `lock.txt`. Nếu chủ ý thay bằng export mới, ghi lý do vào `40_decision_log.csv`, chạy `python3 lab11.py lock <vòng> <zip-mới> --relock`, rồi báo mã khóa mới cho người QA. |
 | `Chưa khoá … trước khi mở reference` | Chạy `python3 lab11.py lock <vòng> <zip>` trước, rồi `python3 lab11.py reference <vòng>` sau |
 | Import lỗi / prefill không lên | Kiểm task, tên ba ảnh, labels Raw và đúng file `assets/prefill/<slice>.xml`; báo Lab Coach. Nếu cần vẽ trắng từ ảnh gốc, ghi sự cố vào decision log. Không mở worked overlay trước khi xong QA mù P3. |
 
