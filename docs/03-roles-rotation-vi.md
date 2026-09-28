@@ -1,6 +1,6 @@
 # 03 — Ba vai và vòng quay
 
-> **Hồ sơ nhóm Hoàng–Tiến–Đại hiện tại:** Hoàng là A trên B4-edge, Tiến được giao B, Đại được giao C; cả nhóm dùng một repo và một `submission/`. Xem [hướng dẫn nhóm](../HUONG_DAN_HOANG.md) và [bàn giao thực tế](../TEAMMATES.md). Mục “Vòng quay” và “solo” bên dưới mô tả quy trình gốc nhiều repo của template; không chạy lại `mode` trong checkout đã khóa này.
+> **Hồ sơ nhóm Hoàng–Tiến–Đại hiện tại:** Hoàng là A trên B4-edge, Tiến được giao B, Đại được giao C; cả nhóm dùng một repo và một `submission/`. Xem [bàn giao thực tế](../TEAMMATES.md). Mục “Vòng quay” và “solo” bên dưới mô tả quy trình gốc nhiều repo của template; không chạy lại `mode` trong checkout đã khóa này.
 
 Một nhiệm vụ duy nhất — audit một slice 3 frame — qua ba vai. Mọi vai ghi vào **một** bảng `submission/findings.csv`.
 

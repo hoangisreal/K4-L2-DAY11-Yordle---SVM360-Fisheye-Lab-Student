@@ -7,8 +7,8 @@
     },
     {
       "file": "00_setup/mode.json",
-      "lines": 24,
-      "sha256": "f6ea90d81f3e5bc9c0be653a7561132fc6d2f42942f679addae95cc072228827"
+      "lines": 29,
+      "sha256": "66a36001422a0a489ebb0c309585f7bf92cc2c2db3e840d986566a08069c8955"
     },
     {
       "file": "00_setup/sensor_context.md",
@@ -66,7 +66,7 @@
     {
       "file": "r1_craft/selfqc.md",
       "lines": 30,
-      "sha256": "b7c907776027db80aa9ea857c848bf9819771d9a67a59a264c797b795a318314"
+      "sha256": "3b495ed82e6f776fccfe70bcfbd7e4c285a58eab067b5a5a70d3d8c07867d228"
     },
     {
       "file": "r1_craft/reference.txt",
@@ -86,8 +86,8 @@
     },
     {
       "file": "r2_qa/qa_review.md",
-      "lines": 57,
-      "sha256": "df68289cccadb193ab57aed7586c6abaf775fc83317ba9030eb6276be50aef59"
+      "lines": 56,
+      "sha256": "cb17174632f720bca6d2025375f8940aa52041bf4183c547ed644d3b87018cf4"
     },
     {
       "file": "r2_qa/qa_overlay.html",
@@ -148,12 +148,12 @@
     {
       "file": "findings.csv",
       "lines": 42,
-      "sha256": "d9956eb37092f5287e99a9e0ad4b6727804e4f8898a3ae8014e1a68d6531d97d"
+      "sha256": "66bf444d8a5057bdeb41ad95c0fac79e59d49528a071142a3487813fc085ff37"
     },
     {
       "file": "10_error_card.md",
       "lines": 36,
-      "sha256": "2de3fb0ff281035b43573ee9147834f9b0d1682a6c63063a7230f2a3b4367c7e"
+      "sha256": "9e3d9d3b4085bf1ac4e695c39b63fb8135ac97eb2997b742436159e83957d7e4"
     },
     {
       "file": "20_guideline_patch.md",
@@ -168,7 +168,7 @@
     {
       "file": "40_decision_log.csv",
       "lines": 9,
-      "sha256": "9c71e9a2b1de3709d812bbc069359b16ad506e706bfa1917fb91e0b889b25f68"
+      "sha256": "1ac53da9cbd4f3fe4c6273683f83e0ff3d14e564b89e99fe5ac2a20b47916443"
     },
     {
       "file": "45_review_plan.md",
@@ -188,7 +188,7 @@
     {
       "file": "50_exit_ticket.md",
       "lines": 11,
-      "sha256": "0c2bcc20ba3c435bbf256e2873c3e0d9e43474fbfc37707895615251e4107bb7"
+      "sha256": "42d0cd0f747bb5a834447d89161f0bfb912f581203f66e6c1c331e2e6e1e790a"
     }
   ],
   "failed_gates": []

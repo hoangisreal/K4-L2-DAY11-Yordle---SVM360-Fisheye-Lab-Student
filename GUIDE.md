@@ -1,6 +1,6 @@
 # GUIDE — làm bài Day 11 từ ảnh đến gói nộp
 
-> **Áp dụng cho nhóm Hoàng–Tiến–Đại:** làm **một repo Public, một slice B4-edge và một `submission/` chung**. Xem [hướng dẫn nhóm hiện tại](HUONG_DAN_HOANG.md) và [bảng vai/bàn giao](TEAMMATES.md) trước khi làm hoặc nộp. Các ví dụ repo cá nhân, vòng đổi slice và `mode --members` bên dưới thuộc quy trình gốc của template; với checkout đã khóa này, giữ cấu hình B4-edge như hướng dẫn nhóm.
+> **Áp dụng cho nhóm Hoàng–Tiến–Đại:** làm **một repo Public, một slice B4-edge và một `submission/` chung**. Xem [bảng vai/bàn giao](TEAMMATES.md) trước khi làm hoặc nộp. Các ví dụ repo cá nhân, vòng đổi slice và `mode --members` bên dưới thuộc quy trình gốc của template; không chạy lại `mode` trong checkout đã khóa này.
 
 **Dành cho học viên · trạng thái: hướng dẫn thực hành của lab Day 11.** Mở file này cạnh CVAT. Buổi lab 240 phút P0–P6 bắt đầu bằng ảnh bãi đỗ camera thường, rồi chuyển sang ảnh fisheye **một camera** ADASIND. Bài lập kế hoạch bốn camera SVM là tình huống **giả lập**, không có 50.000 frame hay ảnh bốn camera trong repo. Dùng [README](README.md) để xem mục tiêu và gói nộp; file này chỉ đường thao tác, điểm dừng để kiểm, và cách gỡ lỗi.
 

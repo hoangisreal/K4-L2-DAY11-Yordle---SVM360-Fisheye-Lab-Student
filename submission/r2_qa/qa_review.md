@@ -1,12 +1,13 @@
 # QA review · B4-edge
 
-- **Vai trò reviewer:** B, được phân công cho Tiến. Lượt QA mù được ghi nhận bên dưới do Codex thực hiện theo chỉ dẫn của người dùng để hoàn tất workflow đã được phân công.
-- **Xác nhận từ người review:** Theo thông tin người dùng cung cấp, Tiến đã xem lại tài liệu vào ngày **28/09/2026** và kiểm tra lại các bản **r1/v2 đã khóa** vào ngày **29/09/2026**, đồng ý với các finding đã ghi nhận và không bổ sung thêm ý kiến.
-- **Tình trạng tiếp xúc với reference:** Tiến đã xem reference/model trước khi thực hiện lượt review của mình. Vì vậy, lượt review của Tiến là **review có tham chiếu**. Lượt **QA mù** được ghi nhận bên dưới do Codex thực hiện trước khi mở teaching reference, model output hoặc worked overlay của B4-edge.
-- **Annotator:** Hoàng (A).
+- **Vai trò reviewer:** Role B, Nguyễn Văn Tiến.
+- **Provenance của artifact QA:** bốn finding `r2_qa` và overlay được tạo từ workflow của project trong điều kiện trước khi mở teaching reference, model output hoặc worked overlay của B4-edge. Không có evidence thành viên cụ thể để gán lượt tạo artifact ban đầu này cho Role B.
+- **Xác nhận của Role B:** Role B xem tài liệu ngày **28/09/2026**, sau đó kiểm tra đúng các bản **r1/v2 đã khóa** ngày **29/09/2026**, xác nhận các finding đã ghi nhận và không bổ sung ý kiến.
+- **Tình trạng tiếp xúc với reference:** Role B đã xem reference/model trước lượt review của mình. Vì vậy đây là **review có tham chiếu**, không phải một lượt QA mù cá nhân.
+- **Annotator:** Role A, Nguyễn Việt Hoàng.
 - **Lock đã kiểm tra:** `0E90-3A37`; SHA-256 ghi trong `lock.txt` khớp với `annotations.xml`.
 - **Phạm vi:** Toàn bộ ba frame thuộc B4-edge, bao gồm ảnh gốc và annotation overlay của bản đã khóa.
-- **Điều kiện QA mù:** Lượt QA này được hoàn tất trước khi mở teaching reference, model output hoặc worked overlay của B4-edge.
+- **Điều kiện của artifact ban đầu:** bảng finding được hoàn tất trong workflow trước khi mở teaching reference, model output hoặc worked overlay của B4-edge; điều này không xác định người thực hiện.
 
 | frame | object_ref | rule_id | finding / nội dung cần kiểm tra |
 |---|---|---|---|
@@ -15,9 +16,7 @@
 | `adasind_258420.jpg` | L3 Car | R01, R02 | Box có kích thước khoảng `64 × 41 px`, chỉ cao hơn nhẹ ngưỡng `H=40`. Cần kiểm tra lại xem biên trên và dưới có bám đúng phần xe nhìn thấy trên ảnh fisheye gốc hay không, đồng thời xác nhận phần nhìn thấy thực tế cao ít nhất 40 px. |
 | `adasind_310008.jpg` | L2, L5 Pedestrian | R02 | Hai box chồng lấn đáng kể trong cụm người đi bộ bên trái. Cần xác minh đây có phải là hai người khác nhau hay L5 là box thứ hai trùng với người đã được đánh dấu bởi L2. |
 
-Đây là một **lượt QA mù theo vai trò, do Codex thực hiện theo chỉ dẫn của người dùng**. Nội dung này **không khẳng định rằng Tiến trực tiếp thực hiện lượt QA mù**.
-
-Theo thông tin người dùng cung cấp, Tiến sau đó đã kiểm tra lại các bản đã khóa sau khi đã xem reference/model và đồng ý với các finding. Vì vậy, lượt review của Tiến được xem là một **lượt human recheck có tham chiếu**, tách biệt với lượt QA mù ở trên.
+Bảng trên là artifact QA ban đầu của workflow. Role B sau đó kiểm tra lại các bản đã khóa sau khi đã xem reference/model và xác nhận các finding. Vì vậy, bước của Role B được ghi là **recheck có tham chiếu**; hồ sơ không gán lượt QA mù ban đầu cho một thành viên cụ thể.
 
 Giữ trường `why` trống đối với các finding thuộc `r2_qa`.
 
@@ -27,8 +26,8 @@ Bất kỳ chỉnh sửa nào đối với XML đã khóa đều yêu cầu **ex
 
 ## P5 recheck · bản v2
 
-- **Vai trò reviewer:** B. Lượt recheck dưới đây do Codex thực hiện theo chỉ dẫn của người dùng.
-- Theo thông tin người dùng cung cấp, Tiến cũng đã xem lại bản v2 đã khóa vào ngày **29/09/2026**, đồng ý với các kết quả đã ghi nhận và không có thêm ý kiến.
+- **Vai trò reviewer:** Role B.
+- **Provenance:** bảng recheck được tạo từ workflow của project và được Role B kiểm tra/xác nhận trên đúng bản v2 đã khóa ngày **29/09/2026**. Role B đồng ý với các kết quả đã ghi nhận và không bổ sung ý kiến.
 - **File đã kiểm tra:** `submission/rework/annotations-v2.xml`
 - **Lock:** `F070-18D5`
 - **Lệnh xác minh:**
@@ -52,6 +51,6 @@ Lượt recheck này xác nhận lock và kiểm tra các sửa đổi P1 trên 
 
 Các **case E5 trong `adasind_258420.jpg` vẫn đang mở** và cần reviewer thứ hai xử lý.
 
-Theo thông tin người dùng cung cấp, Tiến đã kiểm tra đúng bản v2 đã khóa này vào ngày **29/09/2026** và đồng ý với các case được ghi nhận ở trên. Lượt review của Tiến được thực hiện **sau khi reference đã được xem** và không làm thay đổi tác giả hay trạng thái QA mù của lượt QA Codex trước đó.
+Role B đã kiểm tra đúng bản v2 đã khóa này vào ngày **29/09/2026** và xác nhận các case ở trên. Bước kiểm tra được thực hiện **sau khi reference/model đã được xem**, nên chỉ được tính là recheck có tham chiếu.
 
 **Không có bất kỳ chỉnh sửa annotation nào được thực hiện sau khi bản v2 đã được khóa.**

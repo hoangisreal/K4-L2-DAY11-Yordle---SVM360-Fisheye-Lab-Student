@@ -1,6 +1,6 @@
 # Day 11 — SVM/360 Fisheye Lab
 
-> **Áp dụng cho nhóm Hoàng–Tiến–Đại:** nhóm làm **một repo Public và một `submission/` chung**, Hoàng gán nhãn B4-edge, Tiến phụ trách QA, Đại phụ trách chẩn đoán và nộp. Xem [hướng dẫn nhóm hiện tại](HUONG_DAN_HOANG.md) và [bảng vai/bàn giao](TEAMMATES.md). Các đoạn nói “repo cá nhân”, vòng đổi bài nhiều slice và `--self` riêng bên dưới là quy trình gốc của template; với bài nhóm này, dùng hai file trên để quyết định phân vai và cách nộp.
+> **Áp dụng cho nhóm Hoàng–Tiến–Đại:** nhóm làm **một repo Public và một `submission/` chung**, Hoàng gán nhãn B4-edge, Tiến phụ trách QA, Đại phụ trách chẩn đoán và nộp. Xem [bảng vai/bàn giao](TEAMMATES.md) trước khi làm hoặc nộp. Các đoạn nói “repo cá nhân”, vòng đổi bài nhiều slice và `--self` riêng bên dưới là quy trình gốc của template; với bài nhóm này, bảng vai là nguồn phân công chính thức.
 
 **Bài chính Day 11 · 240 phút lab · mỗi học viên nộp một repo Public.** Bạn có thể trao đổi và đổi bản export để QA, nhưng tự gán nhãn, ghi quyết định và nộp bài của mình. Bắt đầu từ trang này; [GUIDE.md](GUIDE.md) là hướng dẫn thao tác CVAT chi tiết khi cần, còn [RUBRIC.md](RUBRIC.md) cho biết **100 điểm** được đọc từ bằng chứng nào.
 

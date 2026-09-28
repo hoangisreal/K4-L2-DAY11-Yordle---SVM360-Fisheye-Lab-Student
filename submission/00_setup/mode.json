@@ -11,14 +11,19 @@
   ],
   "members": [
     "hoang",
-    "pham",
-    "tien"
+    "tien",
+    "dai"
   ],
   "assignments": {
     "hoang": "B4-edge",
-    "pham": "B2-center",
-    "tien": "B4-dense"
+    "tien": "B4-edge",
+    "dai": "B4-edge"
   },
   "self": "hoang",
+  "role_assignments": {
+    "A": "hoang",
+    "B": "tien",
+    "C": "dai"
+  },
   "degrade": []
 }

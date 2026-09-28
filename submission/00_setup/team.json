@@ -1,7 +1,11 @@
 {
   "qa_reviews": {
-    "hoang": "pham",
-    "pham": "tien",
-    "tien": "hoang"
-  }
+    "hoang": "tien"
+  },
+  "roles": {
+    "annotator": "hoang",
+    "qa_reviewer": "tien",
+    "diagnostician": "dai"
+  },
+  "shared_slice": "B4-edge"
 }

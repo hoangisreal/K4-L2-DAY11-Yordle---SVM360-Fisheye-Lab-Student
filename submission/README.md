@@ -1,6 +1,6 @@
 # `submission/` — thư mục bài nộp của bạn
 
-> **Hồ sơ nhóm Hoàng–Tiến–Đại:** đây là một bài nộp chung trên slice B4-edge. Xem [hướng dẫn nhóm](../HUONG_DAN_HOANG.md) và [bảng vai](../TEAMMATES.md) để biết ai phụ trách từng bước; các câu nói về bài cá nhân trong template không áp dụng cho hồ sơ này.
+> **Hồ sơ nhóm Hoàng–Tiến–Đại:** đây là một bài nộp chung trên slice B4-edge. Xem [bảng vai](../TEAMMATES.md) để biết ai phụ trách từng bước; các câu nói về bài cá nhân trong template không áp dụng cho hồ sơ này.
 
 Đây là nơi lưu bằng chứng cho toàn bộ Day 11. Bạn điền các file mẫu có `TODO`, thêm ảnh chụp và để các lệnh `python3 lab11.py ...` tạo các file kỹ thuật cần thiết. **Giữ nguyên tên thư mục và tên file** để `python3 lab11.py check` nhận ra bài nộp.
 
