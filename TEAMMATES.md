@@ -26,21 +26,15 @@
 | P5 · Rework và kiểm bản sửa | Role A sửa/export/khóa v2; Role B kiểm tra lại; Role C xem bản khóa | `annotations-v2.xml`, `lock2.txt`, `delta.md`, phần P5 trong `qa_review.md` | Matched 15→19, missing 5→1, spurious 6→4. Hai missing R1/R7 và các sửa đổi frame 310008 đã hoàn tất; L3/R5 và L2/L7/L8 ở frame 258420 vẫn mở. |
 | P6 · Tổng hợp | Role C kiểm tra bộ hồ sơ hoàn chỉnh | `manifest.json`, exit ticket và các artifact trong `submission/` | `failed_gates=[]`; trạng thái unresolved/escalated được giữ nguyên để reviewer thứ hai hoặc Lab Coach xử lý. |
 
-## 4. Quyết định và phối hợp chính
+## 4. Bất đồng và phối hợp
 
 - `adasind_310008.jpg`, L2/L5, R02: artifact QA nêu nghi vấn trùng. Role A đối chiếu ảnh gốc, giữ hai người và chỉnh box theo từng cá thể trong v2. Role B kiểm tra bản v2 đã khóa và xác nhận kết quả.
 - `adasind_258420.jpg`, L3/R5/M6 và L2/L7/L8: bằng chứng hiện có chưa đủ để kết luận chắc chắn. Role C xác nhận giữ trạng thái `escalated`; Ticket 2 yêu cầu reviewer thứ hai hoặc Lab Coach phân xử trên ảnh gốc.
 - Các xung đột class ThreeWheeler và rider split từ model được chuyển cho `ai_team` theo D08/Ticket 1. Ba frame chỉ là ví dụ, không dùng để kết luận tỷ lệ lỗi tổng quát.
 - Sampling plan gồm 4 camera × normal/hard, tổng 200 frame. Gold-set plan yêu cầu hai người gán độc lập và người thứ ba phân xử; ba frame ADASIND không được coi là gold cho hệ bốn camera.
 
-## 5. Giới hạn provenance
 
-- Role A có artifact annotation, self-QC, lock r1 và rework/v2 làm bằng chứng trực tiếp cho phần annotator.
-- Role B đã kiểm tra và xác nhận r1/v2 cùng các finding được giao. Vì Role B đã xem reference/model trước lượt review, hồ sơ không gán cho Role B một lượt QA mù độc lập.
-- Không có evidence thành viên cụ thể nào trực tiếp tạo từ đầu bốn finding QA ban đầu. Phần này được ghi trung tính là artifact sinh từ workflow của project.
-- Role C đã kiểm tra/xác nhận bộ diagnostic, decision/escalation, sampling/gold-plan và phần tổng hợp. Hồ sơ không suy diễn rằng Role C tự thực hiện mọi phép tính hay tự soạn toàn bộ artifact từ đầu.
-
-## 6. Trạng thái chốt hồ sơ
+## 5. Trạng thái chốt hồ sơ
 
 - [x] Role A đã khóa r1 `0E90-3A37` và v2 `F070-18D5`.
 - [x] Role B đã kiểm tra r1/v2 khóa ngày 29/09/2026 và xác nhận các finding trong lượt review có tham chiếu.
